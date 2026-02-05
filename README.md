@@ -2,6 +2,12 @@
 
 A production-ready Advanced Driver Assistance System (ADAS) powered by computer vision and deep learning. Trained on ~160 GB of driving datasets, this system integrates 8 safety-critical components, from lane departure warnings to driver drowsiness monitoring, delivering real-time performance with fully local processing.
 
+###
+
+<p align="center">
+  <img src="demos/demo1.gif" width="800" />
+</p>
+
 ### Highlights
 
 - 8 Production-Ready ADAS Components (Lane Detection, FCW, Pedestrian Detection, etc.)
@@ -24,6 +30,12 @@ A production-ready Advanced Driver Assistance System (ADAS) powered by computer 
   - Vehicle offset calculation from lane center
   - Configurable departure threshold warning
 
+###
+
+<p align="center">
+  <img src="demos/demo2.gif" width="800" />
+</p>
+
 #### 2. Forward Collision Warning (FCW)
 
 - Model: YOLOv8n (COCO 2017)
@@ -32,6 +44,12 @@ A production-ready Advanced Driver Assistance System (ADAS) powered by computer 
   - Vehicle detection (cars, trucks, buses)
   - SORT multi-object tracking
   - Time-To-Collision (TTC) calculation with configurable threshold
+
+###
+
+<p align="center">
+  <img src="demos/demo3.gif" width="800" />
+</p>
 
 #### 3. Pedestrian Detection
 
@@ -42,6 +60,12 @@ A production-ready Advanced Driver Assistance System (ADAS) powered by computer 
   - Distance-based warning system
   - Height-based proximity estimation
 
+###
+
+<p align="center">
+  <img src="demos/demo4.gif" width="800" />
+</p>
+
 #### 4. Two-Wheeler Detection
 
 - Model: YOLOv8n (COCO 2017)
@@ -50,6 +74,12 @@ A production-ready Advanced Driver Assistance System (ADAS) powered by computer 
   - Detects bicycles and motorcycles
   - Separate alerts for different vehicle types
 
+###
+
+<p align="center">
+  <img src="demos/demo5.gif" width="800" />
+</p>
+
 #### 5. Animal Awareness
 
 - Model: YOLOv8n (COCO 2017)
@@ -57,6 +87,12 @@ A production-ready Advanced Driver Assistance System (ADAS) powered by computer 
 - Features:
   - Detects 6 animal classes (cat, dog, horse, sheep, cow, bear)
   - Distance-based warning system
+
+###
+
+<p align="center">
+  <img src="demos/demo6.gif" width="800" />
+</p>
 
 #### 6. Traffic Sign Recognition
 
@@ -67,6 +103,12 @@ A production-ready Advanced Driver Assistance System (ADAS) powered by computer 
   - Real-time sign classification
   - Configurable confidence thresholds
 
+###
+
+<p align="center">
+  <img src="demos/demo7.gif" width="800" />
+</p>
+
 #### 7. Traffic Light Detection
 
 - Model: YOLOv8n (LISA)
@@ -74,6 +116,12 @@ A production-ready Advanced Driver Assistance System (ADAS) powered by computer 
 - Features:
   - Detects traffic lights in various conditions
   - Classifies state (Red, Yellow, Green, Off)
+
+###
+
+<p align="center">
+  <img src="demos/demo8.gif" width="800" />
+</p>
 
 #### 8. Driver Drowsiness Monitor
 
@@ -85,6 +133,12 @@ A production-ready Advanced Driver Assistance System (ADAS) powered by computer 
   - Fatigue and drowsiness alerts
   - Real-time blink rate analysis
 
+###
+
+<p align="center">
+  <img src="demos/demo9.gif" width="800" />
+</p>
+
 ### The ADAS System (Combined Mode)
 
 Run 7 road-based systems simultaneously:
@@ -95,6 +149,12 @@ Run 7 road-based systems simultaneously:
 - Animal Awareness
 - Traffic Sign Recognition
 - Traffic Light Detection
+
+###
+
+<p align="center">
+  <img src="demos/demo1.gif" width="800" />
+</p>
 
 Features:
 - Consolidated multi-system visualization
