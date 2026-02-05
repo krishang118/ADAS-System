@@ -111,10 +111,10 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-ADAS-System
+## Contributing
 
-A real-time ADAS system integrating 8 safety modules including lane detection, FCW, and drowsiness monitoring using PyTorch, YOLO, UNet, and MediaPipe, trained on ~160 GB datasets with a Streamlit UI.
+Contributions are welcome!
 
-cd "/Volumes/drive/ADAS Project/Codebase"
-source venv_drowsiness/bin/activate
-streamlit run app.py
+## License
+
+Distributed under the MIT License. 
